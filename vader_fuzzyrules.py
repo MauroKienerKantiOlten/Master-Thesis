@@ -46,7 +46,7 @@ ax1.plot(x_n, n_lo, 'b', linewidth=1.5, label='Low')
 ax1.plot(x_n, n_md, 'g', linewidth=1.5, label='Medium')
 ax1.plot(x_n, n_hi, 'r', linewidth=1.5, label='High')
 ax1.set_title('Neg')
-ax1.legend()
+ax1.legend() 
 
 ax2.plot(x_op, op_Pos, 'b', linewidth=1.5, label='Negative')
 ax2.plot(x_op, op_Neu, 'g', linewidth=1.5, label='Neutral')
